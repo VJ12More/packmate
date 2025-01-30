@@ -6,6 +6,30 @@
   padding: 16px;
   box-sizing: border-box;
 }
+/*Chatbot*/
+.chatbot-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+
+.chatbot-icon {
+  background-color: #0078d4;
+  color: white;
+  font-size: 25px;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot-icon:hover {
+  background-color: #005a8a;
+}
+
 
 /* Navbar */
 .navbar {

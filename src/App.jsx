@@ -8,25 +8,27 @@ import Home3 from './Home3'
 import Home4 from './Home4'
 import MlModelip from './MlModelip'
 import Login from './Login'
+import BotpressChat from './BotpressChat'
 // import SignUp from './SignUp'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <BotpressChat/>
       <Home />
       <Home2 />
       <Home3 />
-       <Home4 />
+      <Home4 />
       <HowItWorks />
-      <MlModelip/>
+      <MlModelip />
       <ContactUs />
-      <Login/>
+      <Login />
       {/* <SignUp/> */}
-
     </>
   )
 }
 
-export default App  
+export default App
